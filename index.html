@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./css/animate.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="header__inner inner">
+            <h1 class="header-logo"><a href="/"><img src="img/logo.png" alt=""></a></h1>
+            <ul class="header__nav">
+                <li><a href="#card" class="select__line">Card</a></li>
+                <li><a href="#news" class="select__line">News</a></li>
+                <li><a href="#price" class="select__line">Price</a></li>
+                <li><a href="#access" class="select__line">Access</a></li>
+                <li><a href="#contact" class="select__line">Contact</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <div class="drawer-icon">
+        <div class="drawer-icon__bars">
+            <div class="drawer-icon__bar1"></div>
+            <div class="drawer-icon__bar2"></div>
+            <div class="drawer-icon__bar3"></div>
+        </div>
+    </div>
+
+    <div class="drawer-content">
+        <div class="drawer-content__items">
+            <div class="drawer-content__item"><a href="">Card</a></div>
+            <div class="drawer-content__item"><a href="">News</a></div>
+            <div class="drawer-content__item"><a href="">Price</a></div>
+            <div class="drawer-content__item"><a href="">Access</a></div>
+            <div class="drawer-content__item"><a href="">Contact</a></div>
+        </div>
+    </div>
+
+    <div class="drawer-background "></div>
+    <!-- Slider main container -->
+    <div class="swiper">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide">
+                <div class="main-visual">
+                    <div class="main-visual_contents">
+                        <div class="main-visual_title">一番伝えたいことを書く1</div>
+                        <div class="main-visual_text">リードリードリード</div>
+                        <div class="main-visual_button"><a href="#contact">お問い合わせ</a></div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="swiper-slide">
+                <div class="main-visual">
+                    <div class="main-visual_contents">
+                        <div class="main-visual_title">一番伝えたいことを書く2</div>
+                        <div class="main-visual_text">リードリードリード</div>
+                        <div class="main-visual_button"><a href="">お問い合わせ</a></div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="swiper-slide">
+                <div class="main-visual">
+                    <div class="main-visual_contents">
+                        <div class="main-visual_title">一番伝えたいことを書く3</div>
+                        <div class="main-visual_text">リードリードリード</div>
+                        <div class="main-visual_button"><a href="">お問い合わせ</a></div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
+
+        <!-- If we need navigation buttons -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+
+    </div>
+    <section class="card section" id="card">
+        <div class="card__inner inner">
+            <div class="card__head section-title">Card</div>
+            <div class="card__items wow bounce">
+                <div class="card__item">
+                    <div class="card__image"><img src="./img/card-img.svg" alt=""></div>
+                    <div class="card__title">タイトルタイトル</div>
+                    <div class="card__text">テキストテキストテキストテキストテキストテキストテキストテキストテキスト</div>
+                </div>
+                <div class="card__item">
+                    <div class="card__image"><img src="./img/card-img.svg" alt=""></div>
+                    <div class="card__title">タイトルタイトル</div>
+                    <div class="card__text">テキストテキストテキストテキストテキストテキストテキストテキストテキスト</div>
+                </div>
+                <div class="card__item">
+                    <div class="card__image"><img src="./img/card-img.svg" alt=""></div>
+                    <div class="card__title">タイトルタイトル</div>
+                    <div class="card__text">テキストテキストテキストテキストテキストテキストテキストテキストテキスト</div>
+                </div>
+                <div class="card__item ">
+                    <div class="card__image"><img src="./img/card-img.svg" alt=""></div>
+                    <div class="card__title">タイトルタイトル</div>
+                    <div class="card__text">テキストテキストテキストテキストテキストテキストテキストテキストテキスト</div>
+                </div>
+                <div class="card__item">
+                    <div class="card__image"><img src="./img/card-img.svg" alt=""></div>
+                    <div class="card__title">タイトルタイトル</div>
+                    <div class="card__text">テキストテキストテキストテキストテキストテキストテキストテキストテキスト</div>
+                </div>
+                <div class="card__item">
+                    <div class="card__image"><img src="./img/card-img.svg" alt=""></div>
+                    <div class="card__title">タイトルタイトル</div>
+                    <div class="card__text">テキストテキストテキストテキストテキストテキストテキストテキストテキスト</div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="news section" id="news">
+        <div class="news__inner inner">
+            <div class="news__head section-title">News</div>
+            <div class="news__items">
+                <div class="news_item">
+                    <div class="news__meta">
+                        <div class="news__date">2019-01-30</div>
+                        <div class="news__label"><a href="#">ラベル１</a></div>
+                    </div>
+                    <div class="news__title"><a href="">ニュースニュースニュースニュースニュースニュースニュースニュース</a></div>
+                </div>
+                <div class="news_item">
+                    <div class="news__meta">
+                        <div class="news__date">2019-01-30</div>
+                        <div class="news__label"><a href="#" class="is-blue">ラベル2</a></div>
+                    </div>
+                    <div class="news__title"><a href="">ニュースニュースニュースニュースニュースニュースニュースニュース</a></div>
+                </div>
+                <div class="news_item">
+                    <div class="news__meta">
+                        <div class="news__date">2019-01-30</div>
+                        <div class="news__label"><a href="#" class="is-red">ラベル3</a></div>
+                    </div>
+                    <div class="news__title"><a href="">ニュースニュースニュースニュースニュースニュースニュースニュース</a></div>
+                </div>
+                <div class="news_item">
+                    <div class="news__meta">
+                        <div class="news__date">2019-01-30</div>
+                        <div class="news__label"><a href="#">ラベル１</a></div>
+                    </div>
+                    <div class="news__title"><a href="">ニュースニュースニュースニュースニュースニュースニュースニュース</a></div>
+                </div>
+                <div class="news_item">
+                    <div class="news__meta">
+                        <div class="news__date">2019-01-30</div>
+                        <div class="news__label"><a href="#">ラベル１</a></div>
+                    </div>
+                    <div class="news__title"><a
+                            href="">ニュースニュースニュースニュースニュースニュースニュースニュースニュースニュースニュースニュースニュースニュースニュースニュース</a></div>
+                </div>
+                <div class="news_item">
+                    <div class="news__meta">
+                        <div class="news__date">2019-01-30</div>
+                        <div class="news__label"><a href="#">ラベル１</a></div>
+                    </div>
+                    <div class="news__title"><a href="">ニュースニュースニュースニュースニュースニュースニュースニュース</a></div>
+                </div>
+            </div>
+            <div class="news__more"><a href="">more</a></div>
+        </div>
+    </section>
+    <section class="price section" id="price">
+        <div class="price__inner inner">
+            <div class="price_head section-title">Price</div>
+            <div class="price__content">
+                <div class="price__image"><img src="./img/price-img.png" alt=""></div>
+                <div class="price__table">
+                    <table class="table">
+                        <tr>
+                            <th></th>
+                            <th>column1</th>
+                            <th>column2</th>
+                        </tr>
+                        <tr>
+                            <th>row1</th>
+                            <td>100円</td>
+                            <td>100円</td>
+                        </tr>
+                        <tr>
+                            <th>row2</th>
+                            <td>6,000円</td>
+                            <td>0円</td>
+                        </tr>
+                        <tr>
+                            <th>row3</th>
+                            <td><strong>6,000円</strong><span>※今だけ半額</span></td>
+                            <td>0円</td>
+                        </tr>
+                        <tr>
+                            <th>row4</th>
+                            <td>100円</td>
+                            <td>100円</td>
+                        </tr>
+                    </table>
+                    <div class="price__attention">※目安なので詳しくは<a href="">お問い合わせ</a>ください。</div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="access section" id="access">
+        <div class="access__inner inner">
+            <div class="access__head section-title">Access</div>
+            <div class="access__map">
+                <div class="iframe-wrap">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3339.490845962052!2d129.7088831144428!3d33.17499132277334!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x356a944f151c2679%3A0x89b9d8731d0782e1!2z44CSODU3LTAwNDcg6ZW35bSO55yM5L2Q5LiW5L-d5biC55-i5bKz55S6!5e0!3m2!1sja!2sjp!4v1630367951271!5m2!1sja!2sjp"
+                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+                <dl class="access_info">
+                    <div class="access_info_row">
+                        <dt>住所</dt>
+                        <dd>ほげほげほげのほげの場所</dd>
+                    </div>
+                    <div class="access_info_row">
+                        <dt>アクセス</dt>
+                        <dd>〇〇駅から右に５分</dd>
+                    </div>
+                </dl>
+                <div class="access__button button"><a href="">Googleマップで見る</a></div>
+            </div>
+        </div>
+    </section>
+    <section class="qa">
+        <div class="qa__inner inner">
+            <div class="qa__head section-title">Contact</div>
+
+            <dl class="ac">
+                <dt>クリックするとどうなりますか？
+                    <div class="accordion__icon">
+                        <div class="icon__line1"></div>
+                        <div class="icon__line2"></div>
+                    </div>
+                </dt>
+                <dd>アコーディオンでここが開きます。アコーディオンでここが開きます。アコーディオンでここが開きます。アコーディオンでここが開きます。アコーディオンでここが開きます。アコーディオンでここが開きます。アコーディオンでここが開きます。アコーディオンでここが開きます。</dd>
+                <dt>クリックするとどうなりますか？</dt>
+                <dd>アコーディオンでここが開きます。アコーディオンでここが開きます。アコーディオンでここが開きます。アコーディオンでここが開きます。アコーディオンでここが開きます。アコーディオンでここが開きます。アコーディオンでここが開きます。アコーディオンでここが開きます。</dd>
+                <dt>クリックするとどうなりますか？</dt>
+                <dd>アコーディオンでここが開きます。アコーディオンでここが開きます。アコーディオンでここが開きます。アコーディオンでここが開きます。アコーディオンでここが開きます。アコーディオンでここが開きます。アコーディオンでここが開きます。アコーディオンでここが開きます。</dd>
+                <dt>クリックするとどうなりますか？</dt>
+                <dd>アコーディオンでここが開きます。アコーディオンでここが開きます。アコーディオンでここが開きます。アコーディオンでここが開きます。アコーディオンでここが開きます。アコーディオンでここが開きます。アコーディオンでここが開きます。アコーディオンでここが開きます。</dd>
+            </dl>
+        </div>
+    </section>
+    <section class="contact section" id="contact">
+        <div class="contact__inner inner">
+            <div class="contact__head section-title">Contact</div>
+            <div class="contact__form">
+                <form class="contact-form">
+                    <dl class="contact-form__dl">
+                        <div class="contact-form__row">
+                            <dt class="contact-from__label"><label for="your-name" class="is-required">お名前</label></dt>
+                            <dd class="contact-form__input"><input id="your-name" type="text" placeholder="山田 太郎"></dd>
+                        </div>
+                        <div class="contact-form__row">
+                            <dt class="contact-from__label"><label for="your-email" class="is-required">メールアドレス</label>
+                            </dt>
+                            <dd class="contact-form__input"><input id="your-email" type="email" placeholder="taxt@example.com">
+                        </div>
+                        <div class="contact-form__row">
+                            <dt class="contact-from__label"><label for="your-kind">お問い合わせ種別</label></dt>
+                            <dd class="contact-form__input">
+                                <select name="" id="your-kind">
+                                    <option value="#">セレクト1</option>
+                                    <option value="#">セレクト2</option>
+                                    <option value="#">セレクト3</option>
+                                </select>
+                            </dd>
+                        </div>
+                        <div class="contact-form__row">
+                            <dt class="contact-from__label"><label for="your-message">お問い合わせ内容</label></dd>
+                            <dd class="contact-form__input"><textarea name="" id="your-message"
+                                    placeholder="お問い合わせを入力してください"></textarea>
+                        </div>
+                        <div class="contact__form__radio">
+                            <label><input type="radio" name="your-radio" checked><span>ラジオ1</span></label>
+                            <label><input type="radio" name="your-radio"><span>ラジオ2</span></label>
+                            <label><input type="radio" name="your-radio"><span>ラジオ3</span></label>
+                        </div>
+                        <div class="contact__form__check">
+                            <label><input type="checkbox"><span><a href="" class="js-modal">プライバシーポリシー</a>に合意する</span></label>
+                        </div>
+                        <div class="contact__form__button">
+                            <input type="submit" value="送信する">
+                        </div>
+                    </dl>
+                </form>
+            </div>
+        </div>
+    </section>
+    <div class="modal">
+        <h2 class="modal-title">プライバシーポリシー</h2>
+        <div class="modal-content">
+          <ul class="modal-list">
+            <li class="modal-item">
+              <p class="modal-item__title">ほにゃらら</p>
+               <p class="modal-item__text">ほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃらら。</p>
+            </li>
+            <li class="modal-item">
+              <p class="modal-item__title">ほにゃらら</p>
+               <p class="modal-item__text">ほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃらら。</p>
+            </li>
+            <li class="modal-item">
+              <p class="modal-item__title">ほにゃらら</p>
+               <p class="modal-item__text">ほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃらら。</p>
+            </li>
+            <li class="modal-item">
+              <p class="modal-item__title">ほにゃらら</p>
+               <p class="modal-item__text">ほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃらら。</p>
+            </li>
+        </ul>
+        <div class="modal__icon"><a href=""><img src="./img/btn-batsu.svg" alt=""></a></div>
+        </div>
+          <div class="modal__button"><a href="">閉じる</a></div>
+      </div>
+    <div class="modal__background"></div>
+    <footer class="footer">
+        <div class="footer__inner inner">
+            <div class="footer__content">
+                <div class="footer__left">
+                    <div class="footer__logo"><a href=""><img src="./img/logo.png" alt=""></a></div>
+                    <div class="footer__address">住所：ほげほげのほげほげ</div>
+                    <div class="footer__tel">TEL:0000-00-0000</div>
+                </div>
+                <div class="footer__center">
+                    <ul class="footer__nav">
+                        <li><a href="#card">Card</a></li>
+                        <li><a href="#news">News</a></li>
+                        <li><a href="#price">Price</a></li>
+                        <li><a href="#access">Access</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer__right">
+                    <ul class="footer__sns">
+                        <li><a href="" target="_blank"><img src="./img/twitter.svg" alt=""></a></li>
+                        <li><a href="" target="_blank"><img src="./img/facebook.svg" alt=""></a></li>
+                        <li><a href="" target="_blank"><img src="./img/instagram.svg" alt=""></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer__copy">Copyright &copy; 2020 デイトラ All rights reserved.</div>
+        </div>
+    </footer>
+
+    <div class="to-top"><a href="#"><img src="/img/totop.svg" alt="トップへ戻る"></a></div>
+    <!-- jquery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <!-- Swiper -->
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <!-- wow.js -->
+    <script src="js/wow.min.js"></script>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
